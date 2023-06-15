@@ -1,0 +1,37 @@
+.container-form-input {
+  display: flex;
+  justify-content: center;
+}
+
+.form-input {
+  background-color: royalblue;
+  border-radius: 5px;
+  width: 500px;
+  height: 480px;
+}
+
+table {
+  margin-top: 1px;
+}
+
+tr td {
+  padding: 2px;
+}
+
+input {
+  border: 0;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+button {
+  background-color: white;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+
+}
+
+button::hover {
+  background-color: gray;
+}

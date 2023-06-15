@@ -1,0 +1,45 @@
+h2 {
+  text-align: center;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  background-color: royalblue;
+  width: 300px;
+  border-radius: 5px;
+  /* display: flex;
+  justify-content: center; */
+}
+
+input {
+  margin: 5px;
+  padding: 10px;
+  border: 0;
+  border-radius: 3px;
+  width: 200px;
+}
+
+button {
+  background-color: gray;
+  margin: 5px;
+  padding: 10px;
+  border: 0;
+  border-radius: 30px;
+  width: 219px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+table {
+  display: flex;
+  justify-content: center;
+}
+
+.password {
+  color: red;
+  text-align: center;
+}

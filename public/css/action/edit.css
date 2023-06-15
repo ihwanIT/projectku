@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.form-edit {
+  background-color: royalblue;
+  width: 600px;
+  height: 350px;
+  border-radius: 5px;
+}
+
+table {
+  margin-top: 5px;
+}
+
+tr td {
+  padding: 5px;
+}
+
+input {
+  border: 0;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+button :hover {
+  background-color: rgb(107, 39, 39);
+
+}
