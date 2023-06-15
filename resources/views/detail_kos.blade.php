@@ -50,7 +50,7 @@
 			}
 			.foto{
 				background-color: gray;
-				width: 176px;
+				width: 190px;
 				height: 50px;
 				margin: 5px;
 				text-align: center;
@@ -61,6 +61,9 @@
 				width: 210px;
 				height: 160px;
 			} */
+			img{
+				border-radius: 0px 0px 5px 5px;
+			}
 		</style>
   </head>
   <body>
