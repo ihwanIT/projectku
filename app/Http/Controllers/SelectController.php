@@ -17,9 +17,9 @@ class SelectController extends Controller
         $Datakost = DB::select('select * from data_kos');
         return view('index1',['Datakost'=>$Datakost]);
     }
-    public function detail_costumer()
+    public function detail_costumer($id)
     {
-        $Datakost = DB::select('select * from data_kos');
+        $Datakost = DB::select('select * from data_kos where id = ?',[$id]);
         return view('detail_kos',['Datakost'=>$Datakost]);
     }
     // update kos

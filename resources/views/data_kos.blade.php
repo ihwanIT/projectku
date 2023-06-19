@@ -21,6 +21,10 @@
 @endsection
 
 @section('kos_tampil')
+@if (session()->has('succes'))
+		<center>{{ session('succes') }}</center>
+@endif
+
 
 <div class="container">
 <table class="table table-striped">
@@ -44,7 +48,7 @@
   @foreach ($Datakost as $Datakos)
 
   <tr>
-    <td>{{ $Datakos->id }}</td>
+    <td>{{ $loop->iteration }}</td>
     <td>{{ $Datakos->namakos }}</td>
     <td>{{ $Datakos->jumlahkamar }}</td>
     <td>{{ $Datakos->fasilitas }}</td>

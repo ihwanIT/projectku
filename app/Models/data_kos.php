@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class data_kos extends Model
 {
-    protected $fillable = ['namakos', 'jumlahkamar','fasilitas','luas_kamar','jarak','harga', 'imageA', 'imageB', 'imageC', 'imageD',  ];
+    protected $fillable = ['namakos', 'jumlahkamar','fasilitas','luas_kamar','jarak','harga', 'imageA', 'imageB', 'imageC', 'imageD'];
 }

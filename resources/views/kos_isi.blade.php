@@ -11,7 +11,7 @@
    <title>input data kos</title>
 </head>
 <body>
-   &nbsp;
+   <center><h3>TAMBAH DATA KOS</h3></center>
 <div class="container-form-input">
    <div class="form-input">
 <form action="/insert" method="post" enctype="multipart/form-data" >

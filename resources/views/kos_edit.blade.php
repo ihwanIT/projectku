@@ -39,6 +39,7 @@
    </style>
 </head>
 <body>
+   <center><h2>EDIT DATA KOS</h2></center>
 	<div class="container">
 	<div class="form-edit">
 

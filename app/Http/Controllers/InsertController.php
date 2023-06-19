@@ -44,8 +44,9 @@ class InsertController extends Controller
             'imageA' => $imagePathA,
             'imageB' => $imagePathB,
             'imageC' => $imagePathC,
-            'imageD' => $imagePathD,
+            'imageD' => $imagePathD
+            // return redirect('/datakos')->with('error')
         ]);
-        return redirect('/datakos');
+        return redirect('/datakos')->with('succes','Data berhasil di tambahkan');
     }
 }

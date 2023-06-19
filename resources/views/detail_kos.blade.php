@@ -33,7 +33,7 @@
 				text-decoration: none;
 				color: black;
 				padding: 5px;
-				width: 410px;
+				width: 720px;
 				border-radius: 5px;
 				text-align: center;
 	
@@ -44,7 +44,7 @@
 			}
 			.tablecont{
 				background-color: gray;
-				width: 420px;
+				width: 730px;
 				border-radius: 5px;
 				margin: 5px;
 			}
@@ -57,10 +57,6 @@
 				border-radius: 5px;
 				margin-bottom: 140px;
 			}
-			/* .foto:hover{
-				width: 210px;
-				height: 160px;
-			} */
 			img{
 				border-radius: 0px 0px 5px 5px;
 			}
@@ -124,7 +120,7 @@
 </div>
 </div>
 <div class="cont">
-		<a href="https://wa.me/6283857949725" class="wa" class="wa">Contact Now</a>
+		<a href="https://wa.me/6283857949725" class="wa" class="wa">Hubungi sekarang</a>
 	</div>
 		{{-- @endsection --}}
   </body>

@@ -20,7 +20,7 @@
 		}
 		.form-edit{
 			 background-color: royalblue;
-			 height: 340px;
+			 height: 250px;
 			 width: 400px;
 			 border-radius: 5px;
 
@@ -43,6 +43,7 @@
  </style>
 </head>
 <body>
+	<center><h2>HAPUS DATA</h2></center>
 	<div class="container">
 	<div class="form-edit">
 

@@ -18,25 +18,6 @@
 <div class="container">
   @foreach ($Datakost as $Datakos)
 
-  {{-- <tr>
-    <td>{{ $Datakos->id }}</td>
-    <td>{{ $Datakos->namakos }}</td>
-    <td>{{ $Datakos->jumlahkamar }}</td>
-    <td>{{ $Datakos->fasilitas }}</td>
-    <td>{{ $Datakos->luas_kamar }}</td>
-    <td>{{ $Datakos->jarak }}</td>
-    <td>{{ $Datakos->harga }}</td> --}}
-    {{-- <td>{{ $Datakos->image }}</td> --}}
-		{{-- <td> --}}
-			{{-- <a href = 'kos_edit/{{ $Datakos->id }}' class="kuning">
-				<img src='icon/update1.ico'>
-			</a>
-			<a href = 'kos_hapus/{{ $Datakos->id }}' class="merah">
-				<img src='icon/hapus.ico'> --}}
-			{{-- </a>
-		</td>
-  </tr> --}}
-
 <div class="card" style="width: 10rem; height: 13rem;">
   <img src="{{ asset('storage/' . $Datakos->imageA) }}" class="card-img-top">
   <div class="card-body">
@@ -45,9 +26,7 @@
     <a href = 'detail/{{ $Datakos->id }}' class="button">Lihat</a>
   </div>
 </div>
-
   @endforeach
-
   @endsection
 </div>
 
