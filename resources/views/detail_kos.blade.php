@@ -66,7 +66,7 @@
 		<div class="container-foto">
 		<div class="container">
 			<div class="foto">
-				Halman Depan
+				Halaman Depan
 				<img src="{{ asset('storage/' . $Datakost[0]->imageA) }}" class="rounded" style="width: 11rem; height: 10rem;">
 			</div>
 			<div class="foto">

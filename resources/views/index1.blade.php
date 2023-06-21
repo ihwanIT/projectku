@@ -18,7 +18,7 @@
 <div class="container">
   @foreach ($Datakost as $Datakos)
 
-<div class="card" style="width: 10rem; height: 13rem;">
+<div class="card" style="width: 17rem; height: 18rem;">
   <img src="{{ asset('storage/' . $Datakos->imageA) }}" class="card-img-top">
   <div class="card-body">
     <p class="card-title">{{ $Datakos->namakos }}</p>	

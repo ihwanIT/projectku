@@ -21,10 +21,10 @@ class InsertController extends Controller
             'luas_kamar' =>  'required',
             'jarak' =>  'required',
             'harga' =>  'required',
-            'imageA' => 'required|image|mimes:jpg, jepg,png|max:1024',
-            'imageB' => 'required|image|mimes:jpg, jepg,png|max:1024',
-            'imageC' => 'required|image|mimes:jpg, jepg,png|max:1024',
-            'imageD' => 'required|image|mimes:jpg, jepg,png|max:1024'
+            'imageA' => 'required|image|mimes:jpg, jepg,png',
+            'imageB' => 'required|image|mimes:jpg, jepg,png',
+            'imageC' => 'required|image|mimes:jpg, jepg,png',
+            'imageD' => 'required|image|mimes:jpg, jepg,png'
         ]);
         $imagePathA = $request->file('imageA')->store('foto-kos', 'public');
 

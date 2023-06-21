@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <link rel="stylesheet" href="css/admin_kostampil.css">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <title>Data Kos</title>
 </head>
 <body>
@@ -27,7 +27,9 @@
 
 
 <div class="container">
-<table class="table table-striped">
+	<tbody>
+		<div class="table-hover">
+<table class="table table-striped table-hover" style="width: 1090px;">
 	<tr>
 		<th class="add"><a href="/kos_isi">
 			<img src="icon/add.ico">
@@ -66,10 +68,10 @@
 		</td>
   </tr>
   @endforeach
-  <tr>
-
-  </tr>
-	</div>
+</table>
+</div>
+</tbody>
+</div>
 	
 </body>
 </html>
